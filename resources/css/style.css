@@ -54,10 +54,6 @@ a {
   padding-top: 116px;
 }
 
-div {
-  border: 1px solid black;
-}
-
 .column {
   display: flex;
   flex-direction: column;
@@ -80,12 +76,28 @@ div {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  margin-top: 16px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 
 /* Left Column */
 
 .column.large {
   width: 630px;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articles .article-content {
+  height: 250px;
 }
 
 .image.lead {
