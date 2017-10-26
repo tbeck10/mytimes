@@ -49,6 +49,19 @@ a {
 
 .container {
   display: flex;
+  width: 1232px;
+  margin: 0 auto;
+  padding-top: 116px;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
 .column.large {
