@@ -48,6 +48,15 @@ a {
 
 /* Content */
 
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+
 .container {
   display: flex;
   width: 1232px;
@@ -64,6 +73,7 @@ a {
 .image {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
@@ -107,6 +117,11 @@ a {
   margin-top: 0;
   width: 630px;
   font-size: 40px;
+  justify-content: center;
+}
+
+.image.lead span {
+  margin-left: 20px;
 }
 
 .image.fall {
